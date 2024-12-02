@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>Theme Creator</h1>
+      <h1>Theme Maker</h1>
 
       {initialColors.map((color) => {
         return <Color key={color.id} color={color} />;
